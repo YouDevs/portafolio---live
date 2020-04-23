@@ -1,31 +1,28 @@
-:root {
-    --main-bg-color:#2C3D50;
-}
+html {
+  scroll-behavior: smooth; }
 
-html{
-    scroll-behavior: smooth;
-}
+.bg-dark {
+  background-color: var(#2C3D50) !important; }
 
-.bg-dark { background-color: var(--main-bg-color) !important; }
+hr {
+  width: 100px;
+  border: 2px solid black; }
 
-hr { width: 100px; border:2px solid black;}
-p { color: white; }
+p {
+  color: white; }
 
-input.form-control, textarea.form-control{
-    border: none !important;
-    border-radius: 0 !important;
-    border-bottom: 1px solid #ccc !important;
-}
+input.form-control, textarea.form-control {
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #ccc !important; }
 
 .btn-primary {
-    border-color: #5CBDBC !important;
-    background-color: #5CBD9D !important;
-}
+  border-color: #5CBDBC !important;
+  background-color: #5CBD9D !important; }
 
 footer {
-    background-color: var(--main-bg-color);
-}
+  background-color: var(#2C3D50); }
+  footer h3 {
+    color: white; }
 
-footer h3 {
-    color: white;
-}
+/*# sourceMappingURL=style.css.map */

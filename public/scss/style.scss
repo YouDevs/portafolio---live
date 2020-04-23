@@ -1,0 +1,26 @@
+$main-bg-color: #2C3D50;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-dark { background-color: var($main-bg-color) !important; }
+
+hr { width: 100px; border:2px solid black;}
+p { color: white; }
+
+input.form-control, textarea.form-control{
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+.btn-primary {
+    border-color: #5CBDBC !important;
+    background-color: #5CBD9D !important;
+}
+
+footer {
+    background-color: var($main-bg-color);
+    h3 { color: white;}
+}
