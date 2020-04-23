@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+
+// Route::get('/', 'Admin\AdminController@index')->name('admin.index');
