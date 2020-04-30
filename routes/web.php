@@ -23,4 +23,14 @@ Route::get('/admin', function () {
     return view('admin.index');
 });
 
+Route::get('/admin/portfolio', 'Admin\ProjectsController@index')->name('admin.portfolio.index');
+Route::post('/admin/portfolio/store', 'Admin\ProjectsController@store')->name('admin.portfolio.store');
+
 // Route::get('/', 'Admin\AdminController@index')->name('admin.index');
+
+
+/*
+- title
+- featured
+- description
+*/

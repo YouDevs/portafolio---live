@@ -51,22 +51,34 @@
                     <hr>
                 </div>
                 <div class="col-4 text-center mt-5">
+                    <h2>Primer Proyecto</h2>
                     <img src="{{asset('images/cuadrito-bonito.png')}}" alt="Cuadrito bonito">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consectetur sit praesentium voluptatem corrupti.</p>
                 </div>
                 <div class="col-4 text-center mt-5">
+                    <h2>Primer Proyecto</h2>
                     <img src="{{asset('images/cuadrito-bonito.png')}}" alt="Cuadrito bonito">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consectetur sit praesentium voluptatem corrupti.</p>
                 </div>
                 <div class="col-4 text-center mt-5">
+                    <h2>Primer Proyecto</h2>
                     <img src="{{asset('images/cuadrito-bonito.png')}}" alt="Cuadrito bonito">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consectetur sit praesentium voluptatem corrupti.</p>
                 </div>
                 <div class="col-4 text-center mt-5">
+                    <h2>Primer Proyecto</h2>
                     <img src="{{asset('images/cuadrito-bonito.png')}}" alt="Cuadrito bonito">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consectetur sit praesentium voluptatem corrupti.</p>
                 </div>
                 <div class="col-4 text-center mt-5">
+                    <h2>Primer Proyecto</h2>
                     <img src="{{asset('images/cuadrito-bonito.png')}}" alt="Cuadrito bonito">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consectetur sit praesentium voluptatem corrupti.</p>
                 </div>
                 <div class="col-4 text-center mt-5">
+                    <h2>Primer Proyecto</h2>
                     <img src="{{asset('images/cuadrito-bonito.png')}}" alt="Cuadrito bonito">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consectetur sit praesentium voluptatem corrupti.</p>
                 </div>
             </div>
         </section>

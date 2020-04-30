@@ -20,6 +20,9 @@ input.form-control, textarea.form-control {
   border-color: #5CBDBC !important;
   background-color: #5CBD9D !important; }
 
+#porfolio p {
+  color: black; }
+
 footer {
   background-color: var(#2C3D50); }
   footer h3 {
