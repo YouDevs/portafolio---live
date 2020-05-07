@@ -15,9 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
+Route::get('/portfolio', 'FrontendController@index')->name('index');
 
 Route::get('/admin', function () {
     return view('admin.index');
@@ -26,6 +24,8 @@ Route::get('/admin', function () {
 Route::get('/admin/portfolio', 'Admin\ProjectsController@index')->name('admin.portfolio.index');
 Route::post('/admin/portfolio/store', 'Admin\ProjectsController@store')->name('admin.portfolio.store');
 
+Route::get('/admin/portfolio/{projectId}/edit', 'Admin\ProjectsController@edit')->name('admin.portfolio.edit');
+Route::post('/admin/portfolio/{projectId}/update', 'Admin\ProjectsController@update')->name('admin.portfolio.update');
 // Route::get('/', 'Admin\AdminController@index')->name('admin.index');
 
 

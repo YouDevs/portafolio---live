@@ -43,7 +43,11 @@
                             </td>
                             <td>{{ $project->description }}</td>
                             <td>
-                                <div class="sparkbar" data-color="#00a65a" data-height="20">90,80,90,-70,61,-83,63</div>
+                                <a href="{{route('admin.portfolio.edit', $project->id)}}" class="btn btn-warning">Editar</a>
+
+                                <form action="">
+                                    <button class="btn btn-danger">Eliminar</button>
+                                </form>
                             </td>
                         </tr>
                     @endforeach
@@ -52,12 +56,6 @@
                 </div>
                 <!-- /.table-responsive -->
                 </div>
-                <!-- /.card-body -->
-                <div class="card-footer clearfix">
-                <a href="javascript:void(0)" class="btn btn-sm btn-info float-left">Place New Order</a>
-                <a href="javascript:void(0)" class="btn btn-sm btn-secondary float-right">View All Orders</a>
-                </div>
-                <!-- /.card-footer -->
             </div>
             <!-- /.card -->
         </div>
