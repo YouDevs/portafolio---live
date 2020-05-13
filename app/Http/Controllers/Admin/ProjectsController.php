@@ -74,4 +74,10 @@ class ProjectsController extends Controller
 
         return redirect()->route('admin.portfolio.index');
     }
+
+    public function delete(Request $request, $projectId) {
+        $project = Project::find($projectId);
+        $project->delete();
+        return redirect()->back();
+    }
 }

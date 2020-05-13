@@ -26,6 +26,7 @@ Route::post('/admin/portfolio/store', 'Admin\ProjectsController@store')->name('a
 
 Route::get('/admin/portfolio/{projectId}/edit', 'Admin\ProjectsController@edit')->name('admin.portfolio.edit');
 Route::post('/admin/portfolio/{projectId}/update', 'Admin\ProjectsController@update')->name('admin.portfolio.update');
+Route::delete('/admin/portfolio/{projectId}/delete', 'Admin\ProjectsController@delete')->name('admin.portfolio.delete');
 // Route::get('/', 'Admin\AdminController@index')->name('admin.index');
 
 

@@ -45,7 +45,9 @@
                             <td>
                                 <a href="{{route('admin.portfolio.edit', $project->id)}}" class="btn btn-warning">Editar</a>
 
-                                <form action="">
+                                <form action="{{route('admin.portfolio.delete' , $project->id)}}" method="POST">
+                                    {{ csrf_field() }}
+                                    <input type="hidden" name="_method" value="delete" />
                                     <button class="btn btn-danger">Eliminar</button>
                                 </form>
                             </td>
